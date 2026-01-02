@@ -1,0 +1,25 @@
+1767362886176	geckodriver	INFO	Listening on 127.0.0.1:56058
+1767362886200	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/Applications/Firefox. ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/v8/qz62xl3d7td9vct139q35np40000gn/T/rust_mozprofilelcT6En"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1767362886883	Marionette	INFO	Marionette enabled
+2026-01-02 14:08:07.009 Firefox GPU Helper[17270:883816] Failure on line 688 in function id scheduleApplicationNotification(LSNotificationCode, NSWorkspaceNotificationCenter *): noErr == _LSModifyNotification(notificationID, 1, &code, 0, NULL, NULL, NULL)
+2026-01-02 14:08:07.121 Firefox GPU Helper[17270:883828] Connection Invalid error for service com.apple.hiservices-xpcservice.
+2026-01-02 14:08:07.121 Firefox GPU Helper[17270:883816] Error received in message reply handler: Connection invalid
+1767362887291	Marionette	INFO	Listening on port 56064
+WebDriver BiDi listening on ws://127.0.0.1:56059
+Read port: 56064
+1767362887393	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.error: RSLoader: 
+  Failed to retrieve recipes from Remote Settings
+  Message: Error: Could not sync nimbus-desktop-experiments: get-exception
+  Stack:
+    RemoteSettingsSyncError@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:1327:5
+getRecipesFromCollection@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:618:13
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 4387: TypeError: can't access property "closedGroups", winData is undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

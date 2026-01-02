@@ -1,0 +1,20 @@
+1767366857361	geckodriver	INFO	Listening on 127.0.0.1:56786
+1767366857380	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/Applications/Firefox. ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/v8/qz62xl3d7td9vct139q35np40000gn/T/rust_mozprofilemB83pt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1767366857939	Marionette	INFO	Marionette enabled
+2026-01-02 15:14:18.035 Firefox GPU Helper[19934:961609] Failure on line 688 in function id scheduleApplicationNotification(LSNotificationCode, NSWorkspaceNotificationCenter *): noErr == _LSModifyNotification(notificationID, 1, &code, 0, NULL, NULL, NULL)
+2026-01-02 15:14:18.128 Firefox GPU Helper[19934:961627] Connection Invalid error for service com.apple.hiservices-xpcservice.
+2026-01-02 15:14:18.128 Firefox GPU Helper[19934:961609] Error received in message reply handler: Connection invalid
+1767366858297	Marionette	INFO	Listening on port 56792
+WebDriver BiDi listening on ws://127.0.0.1:56787
+Read port: 56792
+1767366858398	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+1767366859334	Marionette	INFO	Stopped listening on port 56792
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.error: (new TypeError("NetworkError when attempting to fetch resource.", "resource://gre/modules/AsyncShutdown.sys.mjs", 569))
+console.error: (new Error("OHTTP was configured for https://ads.mozilla.org/v1/delete_user but we couldn't fetch a valid config", "moz-src:///browser/modules/ContextId.sys.mjs", 234))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/ObliviousHTTP.sys.mjs, line 117: NS_ERROR_XPC_CANT_CONVERT_PRIMITIVE_TO_ARRAY: Cannot convert primitive JavaScript value into an array arg 2 [nsIObliviousHttpService.newChannel]
+console.error: SearchTelemetry: (new TypeError("can't access property \"empty\", this[#store] is null", "moz-src:///browser/components/search/SERPCategorization.sys.mjs", 951))

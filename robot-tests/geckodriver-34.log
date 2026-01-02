@@ -1,0 +1,19 @@
+1767366863794	geckodriver	INFO	Listening on 127.0.0.1:56833
+1767366863809	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/Applications/Firefox. ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/v8/qz62xl3d7td9vct139q35np40000gn/T/rust_mozprofilewf2ZmE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1767366864107	Marionette	INFO	Marionette enabled
+2026-01-02 15:14:24.185 Firefox GPU Helper[20105:962837] Failure on line 688 in function id scheduleApplicationNotification(LSNotificationCode, NSWorkspaceNotificationCenter *): noErr == _LSModifyNotification(notificationID, 1, &code, 0, NULL, NULL, NULL)
+2026-01-02 15:14:24.245 Firefox GPU Helper[20105:962837] Error received in message reply handler: Connection invalid
+2026-01-02 15:14:24.245 Firefox GPU Helper[20105:962851] Connection Invalid error for service com.apple.hiservices-xpcservice.
+1767366864384	Marionette	INFO	Listening on port 56839
+WebDriver BiDi listening on ws://127.0.0.1:56834
+Read port: 56839
+1767366864476	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+1767366865292	Marionette	INFO	Stopped listening on port 56839
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.error: (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: (new Error("OHTTP was configured for https://ads.mozilla.org/v1/delete_user but we couldn't fetch a valid config", "moz-src:///browser/modules/ContextId.sys.mjs", 234))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/ObliviousHTTP.sys.mjs, line 117: NS_ERROR_XPC_CANT_CONVERT_PRIMITIVE_TO_ARRAY: Cannot convert primitive JavaScript value into an array arg 2 [nsIObliviousHttpService.newChannel]

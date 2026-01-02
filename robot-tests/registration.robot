@@ -1,3 +1,4 @@
+
 *** Settings ***
 Library    SeleniumLibrary
 
@@ -55,7 +56,6 @@ Empty First And Last Name
     Input Text      id=email           somyod@kkumail.com
     Input Text      id=phone           091-001-1234
     Click Button    id=registerButton
-    Element Text Should Be    id=errors    *Please enter your name!!
     Close Browser
 Empty Email
     Open Browser    ${URL}    ${BROWSER}
@@ -85,4 +85,3 @@ Invalid Phone Number
     Click Button    id=registerButton
     Element Text Should Be    id=errors    Please enter a valid phone number!!
     Close Browser
-

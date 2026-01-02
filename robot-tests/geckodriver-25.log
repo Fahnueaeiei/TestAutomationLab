@@ -1,0 +1,18 @@
+1767365890068	geckodriver	INFO	Listening on 127.0.0.1:56648
+1767365890082	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/Applications/Firefox. ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/v8/qz62xl3d7td9vct139q35np40000gn/T/rust_mozprofiledpTaC7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1767365890433	Marionette	INFO	Marionette enabled
+2026-01-02 14:58:10.520 Firefox GPU Helper[19313:940687] Failure on line 688 in function id scheduleApplicationNotification(LSNotificationCode, NSWorkspaceNotificationCenter *): noErr == _LSModifyNotification(notificationID, 1, &code, 0, NULL, NULL, NULL)
+2026-01-02 14:58:10.587 Firefox GPU Helper[19313:940687] Error received in message reply handler: Connection invalid
+2026-01-02 14:58:10.587 Firefox GPU Helper[19313:940706] Connection Invalid error for service com.apple.hiservices-xpcservice.
+1767365890726	Marionette	INFO	Listening on port 56655
+WebDriver BiDi listening on ws://127.0.0.1:56649
+Read port: 56655
+1767365890863	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

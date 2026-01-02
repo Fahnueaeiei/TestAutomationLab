@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.1 (Python 3.14.2 on darwin)" generated="2026-01-01T19:02:16.307862" rpa="false" schemaversion="5">
-<suite id="s1" name="Test" source="/Users/fahnuea/Documents/Software Engineer/Lab4/test.robot">
+<robot generator="Robot 7.4.1 (Python 3.14.2 on darwin)" generated="2026-01-02T21:15:42.434572" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="/Users/fahnuea/Documents/Software Engineer/Lab4-TestAutomation/test.robot">
 <test id="s1-t1" name="Go To homepage" line="9">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2026-01-01T19:02:16.459675" level="INFO">Opening browser 'Firefox' to base url 'http://www.google.com'.</msg>
+<msg time="2026-01-02T21:15:42.539932" level="INFO">Opening browser 'Firefox' to base url 'http://www.google.com'.</msg>
 <arg>${HOMEPAGE}</arg>
 <arg>${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-01-01T19:02:16.459547" elapsed="11.949143"/>
+<status status="PASS" start="2026-01-02T21:15:42.539787" elapsed="4.372071"/>
 </kw>
-<status status="PASS" start="2026-01-01T19:02:16.459069" elapsed="11.952103"/>
+<status status="PASS" start="2026-01-02T21:15:42.539310" elapsed="4.373002"/>
 </test>
-<status status="PASS" start="2026-01-01T19:02:16.308678" elapsed="12.103387"/>
+<status status="PASS" start="2026-01-02T21:15:42.435157" elapsed="4.477507"/>
 </suite>
 <statistics>
 <total>
