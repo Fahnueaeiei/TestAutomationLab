@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.14.2 on darwin)" generated="2026-01-01T19:02:16.307862" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="/Users/fahnuea/Documents/Software Engineer/Lab4/test.robot">
+<test id="s1-t1" name="Go To homepage" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-01-01T19:02:16.459675" level="INFO">Opening browser 'Firefox' to base url 'http://www.google.com'.</msg>
+<arg>${HOMEPAGE}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-01-01T19:02:16.459547" elapsed="11.949143"/>
+</kw>
+<status status="PASS" start="2026-01-01T19:02:16.459069" elapsed="11.952103"/>
+</test>
+<status status="PASS" start="2026-01-01T19:02:16.308678" elapsed="12.103387"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Test" id="s1" pass="1" fail="0" skip="0">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
